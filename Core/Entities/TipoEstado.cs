@@ -8,5 +8,6 @@ namespace Core.Entities
     public class TipoEstado : BaseEntity
     {
         public string Descripcion { get; set; }
+        public ICollection<Estado> estados;
     }
 }

@@ -13,11 +13,7 @@ namespace Core.Entities
         public Inventario Inventario { get; set; }
         public int IdTalla { get; set; }
         public Talla talla { get; set; }
-        public string Cantidad { get; set; }
-        public int ValorUnit { get; set; }
-        
-        
-        
-
+        public int Cantidad { get; set; }
+        public float ValorUnit { get; set; }
     }
 }

@@ -9,6 +9,7 @@ namespace Core.Entities
     {
         public string Descripcion { get; set; }
         public string SueldoBase { get; set; }
+        public ICollection<Empleado> empleados {get; set;}
         
     }
 }

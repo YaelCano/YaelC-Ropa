@@ -13,4 +13,6 @@ public class Proveedor : BaseEntity
     public TipoPersona TipoPersona { get; set; }
     public int IdMunicipio { get; set; }
     public Municipo municipo { get; set; }
+    public ICollection<InsumoProveedor> insumoProveedores;
+
 }

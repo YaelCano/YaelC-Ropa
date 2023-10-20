@@ -10,6 +10,9 @@ namespace Core.Entities
         public string Descripcion { get; set; }
         public int IdTipoEstado { get; set; }
         public TipoEstado TipoEstado { get; set; }
+        public ICollection<Prenda> prendas;
+        public ICollection<DetalleOrden> detalleOrdens;
+        public ICollection<Orden> ordens;
         
         
     }

@@ -8,5 +8,7 @@ namespace Core.Entities
     public class TipoPersona
     {
         public string Nombre { get; set; }
+        public ICollection<Proveedor> proveedors;
+        public ICollection<Cliente> Clientes;
     }
 }

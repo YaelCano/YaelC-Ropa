@@ -13,6 +13,9 @@ namespace Core.Entities
         public Cargo Cargo { get; set; }
         public DateTime FechaIngreso { get; set; }
         public int IdMunicipio { get; set; }
-        public Municipo Municipo { get; set; }
+        public Municipio Municipio { get; set; }
+        public ICollection<Venta> ventas;
+        public ICollection<Orden> ordens;
+
     }
 }

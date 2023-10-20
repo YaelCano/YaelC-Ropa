@@ -8,4 +8,6 @@ namespace Core.Entities;
     public class Talla : BaseEntity
     {
         public string Descripcion { get; set; }
+        public ICollection<DetalleVenta> detalleVentas;
+        public ICollection<InventarioTalla> inventarioTallas;
     }

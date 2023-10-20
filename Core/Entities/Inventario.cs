@@ -12,6 +12,7 @@ namespace Core.Entities;
         public string ValorVtaCop { get; set; }
         public string ValorVtaUsd { get; set; }
         
-        
+        public ICollection<InventarioTalla> InventarioTallas;
+        public ICollection<DetalleVenta> detalleVentas;
         
     }

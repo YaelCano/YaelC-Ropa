@@ -9,6 +9,6 @@ namespace Core.Entities
     {
         public string Descripcion { get; set; }
         
-        
+        public ICollection<Prenda> prendas;
     }
 }

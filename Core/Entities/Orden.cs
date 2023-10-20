@@ -14,9 +14,7 @@ namespace Core.Entities
         public Cliente Cliente { get; set; }
         public int IdEstado { get; set; }
         public Estado Estado { get; set; }
-        
-        
-        
-        
+
+        public ICollection<DetalleOrden> detalleOrdenes;
     }
 }
