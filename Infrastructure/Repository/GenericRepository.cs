@@ -11,8 +11,8 @@ namespace Infrastructure.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
-        private readonly GenericRepository _context;
-        public GenericRepository( context)
+        private readonly YaelRopaContext _context;
+        public GenericRepository(YaelRopaContext context)
         {
             _context = context;
         }
