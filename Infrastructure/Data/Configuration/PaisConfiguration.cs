@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Entities;
-
-    public class Talla : BaseEntity
+namespace Infrastructure.Data.Configuration
+{
+    public class PaisConfiguration
     {
-        public string Descripcion { get; set; }
+        
     }
+}

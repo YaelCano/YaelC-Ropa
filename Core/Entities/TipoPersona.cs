@@ -7,6 +7,6 @@ namespace Core.Entities
 {
     public class TipoPersona
     {
-        
+        public string Nombre { get; set; }
     }
 }

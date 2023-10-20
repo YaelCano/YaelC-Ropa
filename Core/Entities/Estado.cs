@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class Estado
+    public class Estado : BaseEntity
     {
+        public string Descripcion { get; set; }
+        public int IdTipoEstado { get; set; }
+        public TipoEstado TipoEstado { get; set; }
+        
         
     }
 }

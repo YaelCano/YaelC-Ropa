@@ -5,8 +5,14 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class Empleado
+    public class Empleado : BaseEntity
     {
-        
+        public int IdEmp { get; set; }
+        public string Nombre { get; set; }
+        public int IdCargo { get; set; }
+        public Cargo Cargo { get; set; }
+        public DateTime FechaIngreso { get; set; }
+        public int IdMunicipio { get; set; }
+        public Municipo Municipo { get; set; }
     }
 }

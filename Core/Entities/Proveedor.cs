@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Entities
+namespace Core.Entities;
+
+public class Proveedor : BaseEntity
 {
-    public class Proveedor
-    {
-        
-    }
+    public int NitProveedor {get; set;}
+    public string Nombre { get; set; }
+    public int IdTipoPersona { get; set; }
+    public TipoPersona TipoPersona { get; set; }
+    public int IdMunicipio { get; set; }
+    public Municipo municipo { get; set; }
 }
